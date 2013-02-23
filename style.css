@@ -1,0 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Text+Me+One);
+    
+      body{
+        font-family: 'Text Me One', sans-serif;
+        background-color:black;
+        color:#04518C;
+        margin:0 0 0 0;
+      }
+      header{
+        width:100%;
+        font-size:2.5em;
+        background-color:#dedede;
+        border-bottom:1px solid #232323;
+      }
+      .title{
+        width:100%;
+        text-align:center;
+        font-weight:bold;
+      }
+      .name{
+        
+        color:#003056;
+      }
+      .dot{
+        color:#04518C;
+      }
+      footer{
+        width:100%;
+        position:fixed;
+        bottom:0px;
+        background-color:#dedede;
+        text-align:center;
+        font-size:0.8em;
+      }
