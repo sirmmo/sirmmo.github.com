@@ -7,6 +7,22 @@
         function resize() {
             $('#content').height($(window).height()-$('header').height()-$('footer').height());
         }
+        $(function(){
+            $.getJSON('data.json', function(data){
+                for(t in data){
+                    for (i in data[t]){
+                        $('#'+t).append(ich[t+"_itm"](data[t][i]));
+                    }
+                }
+            })
+        });
+    </script>
+    
+    <script id="projects_itm" type="text/html">
+        <article>
+            <h2><a href="{{url}}">{{ title }}</a></h2>
+            <p></p>
+        </article>
     </script>
   </head>
   <body>
