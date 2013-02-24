@@ -27,7 +27,7 @@
       footer{
         width:100%;
         position:fixed;
-        bottom:0px;
+        bottom:0;
         background-color:#dedede;
         text-align:center;
         font-size:0.8em;
