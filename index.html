@@ -3,6 +3,11 @@
     <link rel="stylesheet" href="style.css">
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="https://github.com/andyet/ICanHaz.js/raw/master/ICanHaz.min.js"></script>
+    <script>
+        function resize() {
+            $('#content').height($(window).height()-$('header').height()-$('footer').height());
+        }
+    </script>
   </head>
   <body>
     <header><div class="title"><span class="name">SirMMo</span><span class="dot">.</span>github<span class="dot">.</span>com</div></header>

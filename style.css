@@ -6,7 +6,7 @@
         color:#04518C;
         margin:0 0 0 0;
       }
-      header{
+      body>header{
         width:100%;
         font-size:2.5em;
         background-color:#dedede;
@@ -37,6 +37,9 @@
           width:935px;
           margin-left:auto;
           margin-right:auto;
+          background-color:white;
+          overflow:auto;
+          
       }
       
       #content section{
