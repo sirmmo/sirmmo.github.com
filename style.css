@@ -37,7 +37,6 @@
           width:935px;
           margin-left:auto;
           margin-right:auto;
-          background-color:white;
           overflow:auto;
           
       }
@@ -47,6 +46,7 @@
           margin-left:5px;
           margin-right:5px;
           display:block;
+          background-color:white;
           float:left;
       }
       
