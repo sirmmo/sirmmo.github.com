@@ -1,8 +1,9 @@
 {
     "projects":[
         {
-            "title":"test",
+            "title":"DaNKInDaB",
             "url":"http://www.google.com"
+            "description":"DaNKInDaB is a distributed app server leveraging the best tools in the python world to create a haigh performance tool"
         }
     ]    
 }
