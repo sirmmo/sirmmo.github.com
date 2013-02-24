@@ -51,6 +51,8 @@
       }
       
       article {
+          padding-left:5px;
+          padding-right:5px;
           border-top:1px dashed #ddd;
       }
       
