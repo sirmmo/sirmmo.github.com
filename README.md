@@ -1,4 +1,4 @@
 sirmmo.github.com
 =================
 
-sirmmo.github.com
+CNAME points to ingmmo.com
